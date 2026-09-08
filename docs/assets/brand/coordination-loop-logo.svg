@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 220" role="img" aria-labelledby="title desc">
+  <title id="title">Coordination Loop logo</title>
+  <desc id="desc">Original Coordination Loop mark with a concise wordmark.</desc>
+  <g transform="translate(20 20) scale(.70)">
+    <rect x="8" y="8" width="240" height="240" rx="48" fill="#F4F7FB"/>
+    <path d="M128 35A94 94 0 0 1 218 107M221 128a94 94 0 0 1-72 89M128 221A94 94 0 0 1 38 149M35 128a94 94 0 0 1 72-89" fill="none" stroke="#376B8D" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="128" cy="35" r="13" fill="#7457A8"/><circle cx="221" cy="128" r="13" fill="#376B8D"/><circle cx="128" cy="221" r="13" fill="#2E9C86"/><circle cx="35" cy="128" r="13" fill="#C06D43"/>
+    <circle cx="128" cy="128" r="49" fill="#18364B"/><path d="M128 92l25 25-25 25-25-25z" fill="#F4F7FB"/><circle cx="128" cy="117" r="8" fill="#2E9C86"/><path d="M112 138h32" stroke="#F4F7FB" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="235" y="100" fill="#18364B" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="1">COORDINATION</text>
+  <text x="238" y="158" fill="#376B8D" font-family="Segoe UI, Arial, sans-serif" font-size="45" font-weight="600" letter-spacing="13">LOOP</text>
+  <path d="M238 178h612" stroke="#D3DEE7" stroke-width="4"/>
+</svg>

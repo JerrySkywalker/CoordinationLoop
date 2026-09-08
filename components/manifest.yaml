@@ -1,0 +1,32 @@
+schema_version: coordination-loop-components.v1
+project:
+  identity: JerrySkywalker/CoordinationLoop
+  role: public-project-front-door
+  runtime_product: false
+  source_coupling: none
+  composition_rule: logical-membership-does-not-imply-runtime-source-coupling
+components:
+  - id: CLH
+    repository: JerrySkywalker/coordination-loop-harness
+    logical_role: durable-coordination-contracts-and-validation
+    observed_visibility: public
+  - id: CLE
+    repository: JerrySkywalker/coordination-loop-engine
+    logical_role: authoritative-development-control-plane
+    observed_visibility: private
+  - id: CLF
+    repository: JerrySkywalker/coordination-loop-fleet
+    logical_role: execution-worker-provider-plane
+    observed_visibility: private
+  - id: CLT
+    repository: JerrySkywalker/coordination-loop-template
+    logical_role: thin-bootstrap-distribution-starter-product
+    observed_visibility: private
+non_runtime_project_repositories:
+  - repository: JerrySkywalker/coordination-loop-program-coordination
+    logical_role: development-memory-and-program-control
+    runtime_product: false
+constraints:
+  git_submodules: forbidden
+  copied_component_source: forbidden
+  runtime_source_imports_between_components: forbidden

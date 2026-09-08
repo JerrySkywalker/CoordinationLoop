@@ -1,0 +1,27 @@
+# EXAMPLE / NON-AUTHORITATIVE: logical composition, not filesystem nesting.
+schema_version: coordination-loop-release-set.v1-example
+status: example_non_authoritative
+compatibility_set:
+  identity: <compatibility-set-identity>
+  purpose: Record exact compatible product states without Git submodules.
+components:
+  - id: CLH
+    repository: JerrySkywalker/coordination-loop-harness
+    version: <component-version>
+    commit_identity: <full-commit-identity>
+    artifact_or_protocol_identity: <artifact-or-protocol-identity>
+  - id: CLE
+    repository: JerrySkywalker/coordination-loop-engine
+    version: <component-version>
+    commit_identity: <full-commit-identity>
+    artifact_or_protocol_identity: <artifact-or-protocol-identity>
+  - id: CLF
+    repository: JerrySkywalker/coordination-loop-fleet
+    version: <component-version>
+    commit_identity: <full-commit-identity>
+    artifact_or_protocol_identity: <artifact-or-protocol-identity>
+  - id: CLT
+    repository: JerrySkywalker/coordination-loop-template
+    version: <component-version>
+    commit_identity: <full-commit-identity>
+    artifact_or_protocol_identity: <artifact-or-protocol-identity>

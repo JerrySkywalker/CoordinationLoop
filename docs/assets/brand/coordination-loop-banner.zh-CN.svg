@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Coordination Loop 开发控制流程</title>
+  <desc id="desc">目标、受限 WorkOrder、可替换执行、回执与证据、已验证状态和下一个目标形成受控闭环。</desc>
+  <rect x="4" y="4" width="1192" height="302" rx="28" fill="#F4F7FB" stroke="#D3DEE7" stroke-width="4"/>
+  <text x="60" y="68" fill="#18364B" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">受控的开发闭环</text>
+  <text x="60" y="105" fill="#526A7B" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="20">只有经边界约束和验证的证据才能推进权威状态。</text>
+  <g font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <rect x="55" y="156" width="148" height="78" rx="18" fill="#7457A8"/><text x="129" y="190" fill="#FFFFFF" font-size="20" font-weight="700">目标</text><text x="129" y="215" fill="#EDE6FA" font-size="14">状态意图</text>
+    <rect x="255" y="156" width="170" height="78" rx="18" fill="#376B8D"/><text x="340" y="190" fill="#FFFFFF" font-size="20" font-weight="700">受限 WorkOrder</text><text x="340" y="215" fill="#E4F0F7" font-size="14">范围与权限</text>
+    <rect x="477" y="156" width="170" height="78" rx="18" fill="#2E9C86"/><text x="562" y="190" fill="#FFFFFF" font-size="20" font-weight="700">可替换执行</text><text x="562" y="215" fill="#E2F5F0" font-size="14">提供商或工作者</text>
+    <rect x="699" y="156" width="170" height="78" rx="18" fill="#C06D43"/><text x="784" y="190" fill="#FFFFFF" font-size="20" font-weight="700">回执 + 证据</text><text x="784" y="215" fill="#FFF0E7" font-size="14">标准化结果</text>
+    <rect x="921" y="156" width="220" height="78" rx="18" fill="#18364B"/><text x="1031" y="190" fill="#FFFFFF" font-size="20" font-weight="700">已验证状态</text><text x="1031" y="215" fill="#D9E8F1" font-size="14">策略与权限</text>
+  </g>
+  <g fill="none" stroke="#526A7B" stroke-linecap="round" stroke-width="5"><path d="M207 195h38"/><path d="M429 195h38"/><path d="M651 195h38"/><path d="M873 195h38"/></g>
+  <g fill="#526A7B"><path d="M244 187l14 8-14 8z"/><path d="M466 187l14 8-14 8z"/><path d="M688 187l14 8-14 8z"/><path d="M910 187l14 8-14 8z"/></g>
+  <path d="M1031 247c0 33-902 33-902 0" fill="none" stroke="#7457A8" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 10"/>
+  <text x="530" y="285" fill="#7457A8" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">接受后的状态选择下一个目标</text>
+</svg>
